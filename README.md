@@ -36,7 +36,7 @@ This project is licensed under the MIT License.
 📧 Contact
 
 For any inquiries or collaboration opportunities, reach out to us:
-	•	Email: hkn@ucla.edu
+	•	Email: hkn.ucla@gmail.edu
 	•	Website: hkn.ee.ucla.edu
 	•	GitHub Issues: Open an issue
 
