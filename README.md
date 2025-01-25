@@ -1,6 +1,6 @@
 # UCLA Eta Kappa Nu (HKN) Website
 
-Welcome to the official repository for the website of **Eta Kappa Nu (HKN), Beta Epsilon Chapter** at **UCLA**. This repository contains the source code, assets, and configuration files for maintaining and developing the chapter's website.
+Welcome to the official repository for the website of **Eta Kappa Nu (HKN), Iota Gamma Chapter** at **UCLA**. This repository contains the source code, assets, and configuration files for maintaining and developing the chapter's website.
 
 ## 🚀 Overview
 
