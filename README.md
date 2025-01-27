@@ -40,4 +40,4 @@ For any inquiries or collaboration opportunities, reach out to us:
 	•	Website: hkn.ee.ucla.edu
 	•	GitHub Issues: Open an issue
 
- <p align="center">Maintained with ❤️ by UCLA HKN Beta Epsilon Chapter</p>
+ <p align="center">Maintained with ❤️ by UCLA HKN</p>
