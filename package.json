@@ -1,0 +1,21 @@
+{
+  "name": "ucla-hkn-website",
+  "version": "1.0.0",
+  "description": "Welcome to the official repository for the website of **Eta Kappa Nu (HKN), Iota Gamma Chapter** at **UCLA**. This repository contains the source code, assets, and configuration files for maintaining and developing the chapter's website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx @tailwindcss/cli -i ./ui/static/css/main.css -o ./ui/static/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryhshu/ucla-hkn-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryhshu/ucla-hkn-website/issues"
+  },
+  "homepage": "https://github.com/henryhshu/ucla-hkn-website#readme"
+}
