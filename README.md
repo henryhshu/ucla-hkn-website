@@ -14,7 +14,7 @@ The website serves as a hub for UCLA's HKN honor society, providing information 
 The website is built using the following technologies:
 
 - **Frontend:** [HTMX](https://htmx.org/) (for dynamic interactions without JavaScript frameworks)
-- **Backend:** [Go](https://golang.org/) with [Gin](https://gin-gonic.com/) web framework
+- **Backend:** [Go](https://golang.org/)
 - **Database:** [Supabase](https://supabase.io/) (PostgreSQL-based backend)
 - **Styling:** Tailwind CSS
 - **Hosting:** TBA
