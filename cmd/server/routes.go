@@ -17,6 +17,7 @@ func (app *application) routes() http.Handler {
 	router.HandlerFunc(http.MethodGet, "/about", app.about)
 	router.HandlerFunc(http.MethodGet, "/officers", app.officers)
 	router.HandlerFunc(http.MethodGet, "/events", app.events)
+	router.HandlerFunc(http.MethodGet, "/login", app.login)
 
 	fileServer := http.FileServer(http.Dir("./ui/static/"))
 	router.Handler(http.MethodGet, "/static/*filepath", http.StripPrefix("/static", fileServer))

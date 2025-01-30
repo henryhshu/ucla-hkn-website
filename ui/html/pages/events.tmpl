@@ -1,7 +1,7 @@
 {{define "title"}}Events{{end}}
 
 {{define "main"}}
-    <h2>Upcoming Events</h2>
+    <!-- <h2>Upcoming Events</h2>
     <p>
         UCLA HKN hosts a variety of events throughout the year, including workshops, social events, and community service events. Our events are open to all UCLA students, regardless of major or class level.
     </p>
@@ -12,5 +12,29 @@
     <h3>Workshops</h3>
     <p>
         UCLA HKN hosts workshops on a variety of topics, including technical skills, professional development, and personal growth. Our workshops are led by industry professionals, faculty members, and student leaders.
+    </p> -->
+<article class="group flex flex-col min-h-screen text-center text-white">
+    <img
+        alt="Trees"
+        src="static/images/img/tree_backgrounds.jpg"
+        class="h-100 w-full object-cover shadow-xl mb-10"
+    />
+<div class="flex flex-col p-4 justify-center items-center">
+    <h1 class="mb-4 text-4xl font-extrabold tracking-wider leading-none text-white md:text-5xl lg:text-6xl">
+        Upcoming Events
+    </h1>
+    <p class="mt-2 w-1/2 text-center mb-8 text-lg font-normal text-gray-300">
+        UCLA HKN hosts a variety of events throughout the year, including workshops, social events, and community service events. Our events are open to all UCLA students, regardless of major or class level.
     </p>
+</div>
+<div class="flex justify-center items-center py-8 mb-10">
+    <div class="w-full max-w-4xl bg-gray-100 rounded-lg shadow-lg p-4">
+      <iframe 
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%2382ABAD&ctz=America%2FLos_Angeles&src=aGtuLnVjbGFAZ21haWwuY29t&color=%23D81B60" 
+        class="w-full h-[500px] rounded-lg border-2 border-blue-300"
+        frameborder="0" scrolling="no">
+      </iframe>
+    </div>
+  </div>
+</article>
 {{end}}

@@ -26,3 +26,8 @@ func (app *application) events(w http.ResponseWriter, r *http.Request) {
 
 	app.render(w, http.StatusOK, "events.tmpl")
 }
+
+func (app *application) login(w http.ResponseWriter, r *http.Request) {
+
+	app.render(w, http.StatusOK, "login.tmpl")
+}
