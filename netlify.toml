@@ -1,0 +1,8 @@
+[build]
+  command = "go build -o main ./cmd/server && ./main"
+  publish = "public"  # Directory to serve (optional for Go apps)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
