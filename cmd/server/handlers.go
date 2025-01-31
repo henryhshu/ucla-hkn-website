@@ -31,3 +31,8 @@ func (app *application) login(w http.ResponseWriter, r *http.Request) {
 
 	app.render(w, http.StatusOK, "login.tmpl")
 }
+
+func (app *application) healthz(w http.ResponseWriter, r *http.Request) {
+	// return status ok
+	w.WriteHeader(http.StatusOK)
+}
